@@ -5,7 +5,7 @@ class App extends Component {
     render() {
 const name=["madhur","james","games"];
   const listitem=name.map((names)=>
-  <li key={names}>{names}</li>
+  <li key={names.toString()}>{names}</li>
   );
         return(
             <div id="main">
