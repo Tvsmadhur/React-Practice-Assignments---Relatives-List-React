@@ -10,7 +10,7 @@ const name=["madhur","james","games"];
         return(
             <div id="main">
                {/* Do not remove the main div */}
-             <ul>{listitem}</ul>
+             <ol>{listitem}</ol>
             </div>
         )
     }
