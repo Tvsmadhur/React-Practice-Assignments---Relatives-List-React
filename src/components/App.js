@@ -11,7 +11,7 @@ const name=[{id:"relativeListItem1",k:"madhur"},
         return(
             <div id="main">
                {/* Do not remove the main div */}
-             <ol key={james}>{listitem}</ol>
+             <ol>{listitem}</ol>
             </div>
         )
     }
