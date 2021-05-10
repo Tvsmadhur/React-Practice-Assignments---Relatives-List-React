@@ -3,9 +3,10 @@ import '../styles/App.css';
 
 class App extends Component {
     render() {
-const name=["madhur","james","games"];
+const name=[{id:"relativeListItem1",k:"madhur"},
+            {id:"relativeListItem2",k:"james"}];
   const listitem=name.map((names)=>
-  <li key={names.toString()}>{names}</li>
+  <li key={names.id}>{names.k}</li>
   );
         return(
             <div id="main">
